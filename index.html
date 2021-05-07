@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <section class="questions">
+            <div class="q1" id="q1">
+                <h2>Pergunta: Quem foi a rainha angolana mais braba?</h2>
+                <nav>
+                    <ul>
+                        <li><input type="radio" name="first" id="ze" value="ze" checked><label for="ze"> Zé Pequeno</label></li>
+                        <li><input type="radio" name="first" id="nz" value="nz"> <label for="nz"> Nzinga Mbandi</label></li>
+                        <li><input type="radio" name="first" id="cc" value="cc"> <label for="cc"> Cuca</label></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="q2" id="q2">
+                <h2>Pergunta: Quanto é 2 + 2?</h2>
+                <nav>
+                    <ul>
+                        <li><input type="radio" name="first" id="l3" value="3" checked> <label for="l3"> 3</label></li>
+                        <li><input type="radio" name="first" id="l80" value="80"> <label for="l80"> 80</label></li>
+                        <li><input type="radio" name="first" id="l4" value="4"> <label for="l4"> 4</label></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="q3" id="q3">
+                <h2>Pergunta: Azul é uma?</h2>
+                <nav>
+                    <ul>
+                        <li><input type="radio" name="first" id="dor" value="dor" checked> <label for="dor"> Dor</label></li>
+                        <li><input type="radio" name="first" id="cor" value="cor"> <label for="cor"> Cor</label></li>
+                        <li><input type="radio" name="first" id="flor" value="flor"> <label for="flor"> Flor</label></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="youWin" id="win">
+                <p>VOCÊ GANHOU! PARABÉNS: SEU PRÊMIO É DESCOBRIR QUE EU SEI FAZER UM QUIZ!!!!!</p>
+                <button id="winButton">OK</button>
+            </div>
+            <div class="youWin" id="loose">
+                <p>VOCÊ PERDEU! PARABÉNS: SEU PRÊMIO É DESCOBRIR QUE EU SEI FAZER UM QUIZ!!!!!</p>
+                <button id="looseButton">OK</button>
+            </div>
+        </section>
+        <section class="send">
+            <button id="send"> Enviar </button>
+        </section>
+        <div id="points">
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
